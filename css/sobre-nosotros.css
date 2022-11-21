@@ -6,7 +6,7 @@
 }
 
 .sobre-nosotros__logo{
-    background: url(/img/Logo-alura-geek.png) center / cover no-repeat;
+    background: var(--logo-alura-geek) center / cover no-repeat;
     height: 50px;
     width: 176px;
     margin: 1rem 0;
