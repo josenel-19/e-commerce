@@ -1,0 +1,20 @@
+:root{
+    --logo-alura-geek: url(/img/Logo-alura-geek.png);
+    --img-buscador: url(/img/buscador.svg);
+    --azul-claro: #2A7AE4;
+    --letra-blanca: #ffffff;
+    --fondo-banner: url(/img/banner.jpg);
+    --fondo-blanco-hueso: #E5E5E5;
+    --raleway-font: 'Raleway', sans-serif;
+    --letra-gris-suave: #464646;
+}
+
+.container{
+    padding-left: 4.4%;
+    padding-right: 4.4%;
+}
+
+.productos{
+    padding-left: 4.4%;
+    padding-right: 4.4%;
+}

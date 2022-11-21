@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/encabezado.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/sobre-nosotros.css">
     <title>AluraGeek</title>
 </head>
 <body>
@@ -14,13 +24,15 @@
     </header>
     <main>
         <section class="banner container">
-            <h2 class="titulo__banner">Noviembre promocional</h2>
-            <span class="descripcion__banner">productos seleccionados con 33% de descuento<span>
-            <a href="#" class="enlace__banner">Ver Consolas</a>
+            <div class="banner__contenido">
+                <h2 class="titulo__banner">Noviembre promocional</h2>
+                <span class="descripcion__banner">productos seleccionados con 33% de descuento</span>
+                <a href="#" class="enlace__banner">Ver Consolas</a>
+            </div>
         </section>
         <section class="productos">
             <h3 class="productos__titulo">Star Wars</h3>
-            <a href="#" class="productos__enlace">Ver todo -></a>
+            <a href="#" class="productos__enlace">Ver todo →</a>
             <div class="productos__item">
                 <div class="productos__item-imagen productos__item-imagen--producto1" ></div>
                 <span class="productos__item-titulo">Producto 1</span>
@@ -45,10 +57,16 @@
                 <span class="productos__item-precio">$ 60,00</span>
                 <a href="#" class="productos__item-enlace">Ver producto</a>
             </div>
+            <div class="productos__item">
+                <div class="productos__item-imagen productos__item-imagen--producto4"></div>
+                <span class="productos__item-titulo">Producto 5</span>
+                <span class="productos__item-precio">$ 60,00</span>
+                <a href="#" class="productos__item-enlace">Ver producto</a>
+            </div>
         </section>
         <section class="productos">
             <h3 class="productos__titulo">Consolas</h3>
-            <a href="#" class="productos__enlace">Ver todo -></a>
+            <a href="#" class="productos__enlace">Ver todo →</a>
             <div class="productos__item">
                 <div class="productos__item-imagen productos__item-imagen--producto5" ></div>
                 <span class="productos__item-titulo">Producto 1</span>
@@ -76,7 +94,7 @@
         </section>
         <section class="productos">
             <h3 class="productos__titulo">Diversos</h3>
-            <a href="#" class="productos__enlace">Ver todo -></a>
+            <a href="#" class="productos__enlace">Ver todo →</a>
             <div class="productos__item">
                 <div class="productos__item-imagen productos__item-imagen--producto9" ></div>
                 <span class="productos__item-titulo">Producto 1</span>
@@ -102,15 +120,15 @@
                 <a href="#" class="productos__item-enlace">Ver producto</a>
             </div>
         </section>
-        <section class="sobre-nosotros">
+        <section class="sobre-nosotros container">
             <div class="sobre-nosotros__logo"></div>
             <ul class="sobre-nosotros__lista">
-                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace"></a></li>
-                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace"></a></li>
-                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace"></a></li>
-                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace"></a></li>
-                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace"></a></li>
-                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace"></a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Quienes somos</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Política de privacidad</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Programa de fidelidad</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Nuestras tiendas</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Quiero ser franquiciado</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Anúncie aquí</a></li>
             </ul>
             <form action="" class="sobre-nosotros__formulario">
                 <fieldset>

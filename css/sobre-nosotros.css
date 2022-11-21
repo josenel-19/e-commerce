@@ -1,0 +1,26 @@
+.sobre-nosotros{
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-nosotros__logo{
+    background: url(/img/Logo-alura-geek.png) center / cover no-repeat;
+    height: 50px;
+    width: 176px;
+    margin: 1rem 0;
+}
+
+.sobre-nosotros__lista-item{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.sobre-nosotros__item-enlace{
+    text-decoration: none;
+    color: var(--letra-gris-suave);
+    font-family: var(--raleway-font);
+    font-size:1rem;
+    font-weight: 500;
+}

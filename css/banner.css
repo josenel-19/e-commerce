@@ -1,0 +1,33 @@
+.banner{
+    background: var(--fondo-banner) center / cover no-repeat;
+    height: 192px;
+    width: calc(100% - 8.8%);
+}
+.banner__contenido{
+    position: absolute;
+    top: 23.5%;
+    font-family: var(--raleway-font);
+    color: var(--letra-blanca);
+    text-shadow: .5px 2px 0px rgba(0, 0, 0, 1);
+}
+.titulo__banner{
+    font-weight: 700;
+    font-size: 1.375rem;
+    margin-bottom: 8px;
+}
+
+.descripcion__banner{
+    display: block;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+}
+
+.enlace__banner{
+    text-decoration: none;
+    padding: 12px;
+    background: var(--azul-claro);
+    color: var(--letra-blanca);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
