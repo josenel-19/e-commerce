@@ -58,3 +58,51 @@
     margin-bottom: 16px;
     color: var(--azul-claro);
 }
+
+.productos__item-imagen--producto1{
+    background: url(../img/pocillo-figura-accion.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto2{
+    background: url(../img/figura-accion-jedi.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto3{
+    background: url(../img/figura-accion-mandallorian.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto4{
+    background: url(../img/figura-accion-revan.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto5{
+    background: url(../img/control-nintendo-blanco.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto6{
+    background: url(../img/controles-N-DS.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto7{
+    background: url(../img/consola-1.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto8{
+    background: url(../img/consola-2.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto9{
+    background: url(../img/camisa-atari.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto10{
+    background: url(../img/camisa-SNES.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto11{
+    background: url(../img/gafas-realidad-virtual.png) center / cover no-repeat;
+}
+
+.productos__item-imagen--producto12{
+    background: url(../img/figura-accion-pikachu.png) center / cover no-repeat;
+}

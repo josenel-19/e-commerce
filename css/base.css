@@ -1,12 +1,13 @@
 :root{
-    --logo-alura-geek: url(/img/Logo-alura-geek.png);
-    --img-buscador: url(/img/buscador.svg);
+    --logo-alura-geek: url(../img/Logo-alura-geek.png);
+    --img-buscador: url(../img/buscador.svg);
     --azul-claro: #2A7AE4;
     --letra-blanca: #ffffff;
-    --fondo-banner: url(/img/banner.jpg);
+    --fondo-banner: url(../img/banner.jpg);
     --fondo-blanco-hueso: #E5E5E5;
     --raleway-font: 'Raleway', sans-serif;
     --letra-gris-suave: #464646;
+    --letra-gris-mas-suave: #A2A2A2;
 }
 
 .container{

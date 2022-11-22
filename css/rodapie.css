@@ -1,0 +1,8 @@
+.rodapie{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--raleway-font);
+    font-size: .8rem;
+    align-items: center;
+    padding: 1rem 0;
+}

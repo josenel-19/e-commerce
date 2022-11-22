@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: var(--raleway-font);
 }
 
 .sobre-nosotros__logo{
@@ -23,4 +24,63 @@
     font-family: var(--raleway-font);
     font-size:1rem;
     font-weight: 500;
+}
+
+.sobre-nosotros__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-items: left;
+    width: 100%;
+}
+
+.sobre-nosotros__formulario-datos{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-top: 22px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--letra-gris-suave);
+    padding: 0;
+}
+
+.sobre-nosotros__formulario-leyenda{
+    color: var(--letra-gris-suave);
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.sobre-nosotros__formulario-lb-nombre, .sobre-nosotros__formulario-lb-email{
+    background: #ffffff;
+    color: var(--letra-gris-mas-suave);
+    font-size: 0.75rem;
+    padding: 8px 12px 4px 12px;
+}
+
+
+
+.sobre-nosotros__formulario-input-nombre, .sobre-nosotros__formulario-input-email{
+    height: 40px;
+    border: none;
+    padding: 0 12px;
+    margin-bottom: 1rem;
+}
+
+.sobre-nosotros__formulario-mensaje{
+    border: none;
+    height: 8rem;
+    resize: none;
+    line-height: 1.3rem;
+    padding: 8px 12px;
+}
+
+.sobre-nosotros__formulario-submit{
+    width: 36.9%;
+    height: 40px;
+    background: var(--azul-claro);
+    color: #ffffff;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
 }
