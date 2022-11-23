@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/encabezado.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/sobre-nosotros.css">
+    <link rel="stylesheet" href="../css/rodapie.css">
+    <title>AluraGeek-Login</title>
+</head>
+<body>
+    <header class="encabezado container">
+        <a href="../index.html" class="encabezado__logo"></a>
+        <div class="encabezado__buscador">
+            <input id="input-buscador" class="encabezado__buscador-input" placeholder="¿Que desea buscar?">
+            <div class="encabezado__buscador-btn"></div>
+        </div>
+        
+    </header>
+    <main>
+        <form action="" class="formulario-login">
+            <legend class="formulario-login__leyenda">Iniciar sesión</legend>
+            <input type="email" class="formulario-login__input-email" placeholder="Email" required>
+            <input type="password" class="formulario-login__input-contrasena" placeholder="Contraseña" required>
+            <input type="submit" value="Entrar" class="formulario-login__submit">
+        </form>
+        <section class="sobre-nosotros container">
+            <div class="sobre-nosotros__logo"></div>
+            <ul class="sobre-nosotros__lista">
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Quienes somos</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Política de privacidad</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Programa de fidelidad</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Nuestras tiendas</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Quiero ser franquiciado</a></li>
+                <li class="sobre-nosotros__lista-item"><a href="#" class="sobre-nosotros__item-enlace">Anúncie aquí</a></li>
+            </ul>
+            <form action="" class="sobre-nosotros__formulario">
+                <fieldset class="sobre-nosotros__formulario-datos">
+                    <legend class="sobre-nosotros__formulario-leyenda">Hable con nosotros</legend>
+                    <label for="input_nombre" class="sobre-nosotros__formulario-lb-nombre">Nombre</label>
+                    <input id="input_nombre" type="text" class="sobre-nosotros__formulario-input-nombre" placeholder="Juan Perez">
+                    <label for="input_email" class="sobre-nosotros__formulario-lb-email">Email</label>
+                    <input id="input_email" type="email" class="sobre-nosotros__formulario-input-email" placeholder="example@dominio.com">
+                    <textarea id="input_mensaje" type="text" class="sobre-nosotros__formulario-mensaje" placeholder="escriba su mensaje"></textarea>
+                </fieldset>
+                <input type="submit" value="Enviar mensaje" class="sobre-nosotros__formulario-submit">
+            </form>
+        </section>
+    </main>
+    <footer class="rodapie">
+        <span class="rodapie__texto">Desarrollado por Jose Tinoco</span>
+        <span class="rodapie__fecha">2022</span>
+    </footer>
+</body>
+</html>
