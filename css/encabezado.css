@@ -9,7 +9,7 @@
 .encabezado__logo{
     background: var(--logo-alura-geek) center / cover no-repeat;
     height: 28px;
-    width: 28%;
+    width: 29%;
 }
 
 .login__encabezado{
@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     height: 25px;
-    width: 12%;
+    width: 11%;
     border: solid 1px var(--azul-claro);
     color: var(--azul-claro);
     text-align: center;
